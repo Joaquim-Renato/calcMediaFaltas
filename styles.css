@@ -1,0 +1,88 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Degradê de laranja para amarelo */    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do container principal */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+/* Estilo do título */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    color: #666;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do resultado */
+h2 {
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+output {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
